@@ -1,5 +1,5 @@
 1. List all books:
-	res = es.search(index = INDEX_NAME, size=2, body={"query": {"match_all": {}}})
+	res = es.search(index = INDEX_NAME, size=10, body={"query": {"match_all": {}}})
 
 2. List all the books with title containing word "Harry Potter":
 	res=es.search(index= INDEX_NAME,body={"query":{"match":{"title":"Harry Potter"}}})
