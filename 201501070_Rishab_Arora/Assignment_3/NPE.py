@@ -31,4 +31,3 @@ for i in open("final.txt","rb"):
     doc=nlp(d)
     for word in doc.noun_chunks:
         print(word.text)
-

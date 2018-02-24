@@ -17,5 +17,4 @@ for i in open("final.txt","rb"):
     doc=nlp(d)
     for word in doc:
         if word.pos_=="VERB":
-
-            print(word.text, word.lemma_)
+			print(word.text, word.lemma_)
