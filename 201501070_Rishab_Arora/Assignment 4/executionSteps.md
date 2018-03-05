@@ -1,1 +1,0 @@
-Running rating_normalisation.py generates a file small_normalised_ratings with 5000 x 1000 matrix as the fit function was not taking anymore.Then the two files make_matrix.py and svd_genism.py do svd analysis and print the time taken for comparison.

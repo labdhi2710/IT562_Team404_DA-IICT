@@ -1,6 +1,6 @@
 import csv
 
-out=open("ratings_woheader1.csv","r")
+out=open("ratings_woheader.csv","r")
 data=csv.reader(out)
 data=[[row[0],row[1],eval(row[2])] for row in data]
 out.close()

@@ -26,7 +26,7 @@ print("No of Rows:")
 print(num_of_rows)
 print("No of Cols:")
 print(num_of_cols)
-#ratings_mat = np.ndarray(shape=(num_of_rows,num_of_cols), dtype=np.uint8)
+
 ratings_mat = np.zeros((num_of_rows, num_of_cols), dtype=np.int8)
 
 for row in o_data:
@@ -40,12 +40,14 @@ print("ratings_matrix")
 print(ratings_mat)
 
 corpus = gensim.matutils.Dense2Corpus(ratings_mat,documents_columns=True)
+
 #print(corpus)
 #print(common_corpus)
+
 start=time.clock()
 model = LsiModel(corpus, num_topics=2)
 print "Time = ", time.clock()-start
-  # train model
+
 print("--------\n SVD done using Gensim")
 print("U matrix")
 print(model.projection.u)
@@ -54,4 +56,3 @@ print(model.projection.s)
 print("--------\n VT matrix\n")
 V = gensim.matutils.corpus2dense(model[corpus], len(model.projection.s)).T / model.projection.s
 print(V)
-
