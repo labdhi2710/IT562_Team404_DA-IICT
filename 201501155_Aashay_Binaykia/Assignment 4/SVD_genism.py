@@ -45,7 +45,9 @@ corpus = gensim.matutils.Dense2Corpus(ratings_mat,documents_columns=True)
 start=time.clock()
 model = LsiModel(corpus, num_topics=2)
 print "Time = ", time.clock()-start
+
   # train model
+	
 print("--------\n SVD done using Gensim")
 print("U matrix")
 print(model.projection.u)
