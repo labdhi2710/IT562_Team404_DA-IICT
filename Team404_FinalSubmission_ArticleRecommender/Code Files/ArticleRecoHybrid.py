@@ -340,7 +340,8 @@ class FinalRecommender:
         
         return final_df
 
-
+# In[2]:
+    
 articles_df = pd.read_csv('shared_articles.csv')
 articles_df = articles_df[articles_df['eventType'] == 'CONTENT SHARED'][['timestamp','eventType','contentId','authorPersonId','contentType','url','title','text','lang']]
 #print('# articles: %d' % len(articles_df))
