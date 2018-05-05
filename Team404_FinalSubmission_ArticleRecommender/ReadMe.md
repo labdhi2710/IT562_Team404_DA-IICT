@@ -1,4 +1,4 @@
-###An article recommender system by Team 404 under Prof. Sourish Das Gupta.
+### An article recommender system by Team 404 under Prof. Sourish Das Gupta.
 
 The folder names are self-explanatory.
 
