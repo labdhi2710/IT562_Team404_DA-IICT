@@ -1,4 +1,4 @@
-Instructions to run the code:
+# Instructions to run the code:
 
 1. Download both the data files from the Dataset folder.
 2. Download the given code files in the same folder as the data files.
@@ -19,5 +19,5 @@ Instructions to run the code:
 
 
 
-Description of what the code does:
+# Description of what the code does:
 
