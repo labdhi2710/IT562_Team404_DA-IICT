@@ -1,4 +1,4 @@
-# Instructions to run the code:
+## Instructions to run the code:
 
 1. Download both the data files from the Dataset folder.
 2. Download the given code files in the same folder as the data files.
@@ -16,8 +16,3 @@
        * 344280948527967603
        * 3609194402293569455
     2. Unregistered user: For an unregistered user, recommendations displayed are the most popular items from each of the 10 clusters generated. 
-
-
-
-# Description of what the code does:
-
